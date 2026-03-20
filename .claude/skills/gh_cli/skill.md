@@ -3,6 +3,9 @@
 이 스킬은 gh CLI를 사용하여 GitHub 저장소 관리 및 배포를 수행한다.
 모든 명령어는 Bash 도구로 직접 실행한다.
 
+## PATH 설정 (필수 - 모든 gh 명령어 실행 전 반드시 실행)
+export PATH="$PATH:/c/Program Files/GitHub CLI"
+
 ## 저장소 생성
 gh repo create [저장소명] --public --description "[설명]"
 
